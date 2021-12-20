@@ -24,7 +24,7 @@ After getting the phone please follow app the in-depth explained procedure to in
 
 https://www.lifewire.com/install-apk-on-android-4177185
 
-The .APK file of this app can be found in the repositori as debug-app.apk (https://github.com/whenao31/quizzapp/blob/main/app-debug.apk).
+The .APK file of this app can be found in this repository as debug-app.apk (https://github.com/whenao31/quizzapp/blob/main/app-debug.apk).
 
 
 ## Built platform 🛠️
