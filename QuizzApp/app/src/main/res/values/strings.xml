@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+
+    <!-- String resources for add question view -->
+    <string name="q_text">Question: </string>
+    <string name="q_answer1">Answer 1.: </string>
+    <string name="q_answer2">Answer 2.: </string>
+    <string name="q_answer3">Answer 3.: </string>
+    <string name="q_answer4">Answer 4.: </string>
+    <string name="q_level">Level: </string>
+    <string name="q_correct_ans">Correct answer: </string>
+    <string name="q_text_hint">Question text... </string>
+    <string name="q_answer1_hint">Answer option 1... </string>
+    <string name="q_answer2_hint">Answer option 2... </string>
+    <string name="q_answer3_hint">Answer option 3... </string>
+    <string name="q_answer4_hint">Answer option 4... </string>
+
+    <string name="new_question_title">New Question</string>
+
+    <string name="btn_save_question">Save new Question</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_add_question">Question manage</string>
+    <string name="menu_history">Historical results</string>
+
+    <string name="start_game">Start game</string>
+    <string name="quit_game">Give up!</string>
+    <string name="submit_ans">Submit answer</string>
+
+
+</resources>

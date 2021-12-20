@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_review_q_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question no."
+            android:textColor="@color/cardview_light_background"
+            android:background="@color/blue_material_A200"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_text"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_question_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/q_text_hint"
+                android:textSize="12sp"
+                android:maxLines="2"
+                android:lines="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_answer1"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_answer1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/q_answer1_hint"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_answer2"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_answer2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/q_answer2_hint"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_answer3"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_answer3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/q_answer3_hint"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_answer4"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_answer4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/q_answer4_hint"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_correct_ans"
+                android:textSize="14sp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:id="@+id/tv_correct_ans"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/q_level"
+                android:textSize="14sp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:id="@+id/tv_q_level"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/purple_700"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

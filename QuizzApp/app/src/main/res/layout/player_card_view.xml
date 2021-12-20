@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_player_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Player name"
+            android:textSize="20sp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_player_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player score"
+            android:textSize="16sp"
+            android:textColor="@color/purple_700"/>
+
+            <TextView
+            android:id="@+id/tv_player_level"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player level"
+            android:textSize="16sp"
+            android:textColor="@color/purple_700"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
