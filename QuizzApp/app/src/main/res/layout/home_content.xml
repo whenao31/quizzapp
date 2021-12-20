@@ -34,7 +34,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
-            android:id="@+id/radio_group_ops"
+            android:id="@+id/rg_answers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -70,6 +70,63 @@
                 android:checked="false"
                 android:text="possible answer 4" />
         </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/curr_score"
+                android:textColor="@color/blue_material_A200"
+                android:textStyle="bold"
+                android:gravity="right"/>
+            <TextView
+                android:id="@+id/tv_curr_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="@color/blue_material_A200"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:shadowRadius="2"
+                android:shadowColor="#0000ff"
+                android:shadowDx="2"
+                android:shadowDy="4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/curr_timer"
+                android:textColor="@color/blue_material_A200"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_margin="3dp"/>
+            <Chronometer
+                android:id="@+id/chrono_countdown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="@color/blue_material_A200"
+                android:textStyle="bold"
+                android:shadowRadius="2"
+                android:shadowColor="#0000ff"
+                android:shadowDx="2"
+                android:shadowDy="4"
+                android:layout_margin="3dp"/>
+        </LinearLayout>
 
 
     </LinearLayout>

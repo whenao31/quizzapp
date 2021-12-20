@@ -20,12 +20,22 @@
     <string name="btn_save_question">Save new Question</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_add_question">Question manage</string>
+    <string name="menu_add_question">Questions manager</string>
     <string name="menu_history">Historical results</string>
 
     <string name="start_game">Start game</string>
     <string name="quit_game">Give up!</string>
     <string name="submit_ans">Submit answer</string>
+    <string name="curr_score">Score</string>
+    <string name="curr_timer">Countdown timer (sec):</string>
+    <string name="question_title">Questions</string>
+    <string name="history_title">History</string>
 
-
+    <string name="select_ans_warning">Please select a answer =p...</string>
+    <string name="player_save_warning">Player name required...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="player_name">Player Name:</string>
+    <string name="type_name">Your name/nickname...</string>
+    <string name="submit_name">Save</string>
+    <string name="cancel_name">Cancel</string>
 </resources>

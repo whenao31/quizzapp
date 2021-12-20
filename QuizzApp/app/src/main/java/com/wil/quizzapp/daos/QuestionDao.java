@@ -18,7 +18,7 @@ public interface QuestionDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insertQuestion(Question question);
 
-    @Query("SELECT * FROM question_table")
+    @Query("SELECT * FROM question_table ORDER BY level")
     LiveData<List<Question>> getAllQuestions();
 
     @Query("SELECT * FROM question_table WHERE id = :questionId")

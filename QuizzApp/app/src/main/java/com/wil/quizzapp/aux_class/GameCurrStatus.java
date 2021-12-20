@@ -7,12 +7,14 @@ public class GameCurrStatus {
     private int selectedAnswer;
     private int level;
     private int score;
+    private boolean validated;
 
-    public GameCurrStatus(Question question, int selectedAnswer, int level, int score) {
+    public GameCurrStatus(Question question, int selectedAnswer, int level, int score, boolean validated) {
         this.question = question;
         this.selectedAnswer = selectedAnswer;
         this.level = level;
         this.score = score;
+        this.validated = validated;
     }
 
     public Question getQuestion() {
@@ -45,5 +47,13 @@ public class GameCurrStatus {
 
     public void setScore(int score) {
         this.score = score;
+    }
+
+    public boolean isValidated() {
+        return validated;
+    }
+
+    public void setValidated(boolean validated) {
+        this.validated = validated;
     }
 }

@@ -7,8 +7,9 @@
         <entry key="app/src/main/res/layout/activity_new_player.xml" value="0.22916666666666666" />
         <entry key="app/src/main/res/layout/activity_new_question.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_question_list.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_result_history.xml" value="0.35144927536231885" />
-        <entry key="app/src/main/res/layout/home_content.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_result_history.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_player_name.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/home_content.xml" value="0.26296296296296295" />
         <entry key="app/src/main/res/layout/player_card_view.xml" value="0.22916666666666666" />
         <entry key="app/src/main/res/layout/question_card_view.xml" value="0.5" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.10648148148148148" />

@@ -39,10 +39,7 @@ public class QuestionListActivity extends AppCompatActivity {
         questionRecView.setAdapter(questionAdapter);
         questionRecView.setLayoutManager(new LinearLayoutManager(this));
 
-//        myQuestionViewModel.getAllQuestions().observe(this, questions -> {
-//            questionAdapter.submitList(questions);
-//        });
-        myQuestionViewModel.getLevel1Questions().observe(this, questions -> {
+        myQuestionViewModel.getAllQuestions().observe(this, questions -> {
             questionAdapter.submitList(questions);
         });
 

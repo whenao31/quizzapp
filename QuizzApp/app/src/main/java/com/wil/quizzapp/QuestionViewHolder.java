@@ -39,7 +39,8 @@ public class QuestionViewHolder extends RecyclerView.ViewHolder {
         questionAns2.setText(question.getAnswer2());
         questionAns3.setText(question.getAnswer3());
         questionAns4.setText(question.getAnswer4());
-        questionCorrectAns.setText(Integer.toString(question.getCorrectAnswer()));
+//        questionCorrectAns.setText(Integer.toString(question.getCorrectAnswer()));
+        questionCorrectAns.setText("**");
         questionLevel.setText(Integer.toString(question.getLevel()));
     }
 

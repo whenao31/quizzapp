@@ -18,8 +18,10 @@ public class Player {
     @ColumnInfo(name = "level")
     private String level;
 
-    public Player(String name) {
+    public Player(String name, int score, String level) {
         this.name = name;
+        this.score = score;
+        this.level = level;
     }
 
     public String getName() {
